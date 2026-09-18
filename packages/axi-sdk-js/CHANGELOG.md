@@ -1,5 +1,30 @@
 # Changelog
 
+## [0.1.13](https://github.com/sub4biz/axi/compare/axi-sdk-js-v0.1.12...axi-sdk-js-v0.1.13) (2026-09-18)
+
+
+### Features
+
+* axi-sdk-js ([#18](https://github.com/sub4biz/axi/issues/18)) ([309ef60](https://github.com/sub4biz/axi/commit/309ef60c25cc0843764245cd2fc65f5a1f918d00))
+* **axi-sdk-js:** add built-in self-update command ([#60](https://github.com/sub4biz/axi/issues/60)) ([d6560fc](https://github.com/sub4biz/axi/commit/d6560fca9e6dd8fdd9672bb8fa49e740ca86658f))
+* **axi-sdk-js:** add dependency-free version fast path ([#124](https://github.com/sub4biz/axi/issues/124)) ([0802fa8](https://github.com/sub4biz/axi/commit/0802fa8563e1c744b93464ad6dd5ef3facd7ee6d))
+* **axi-sdk-js:** add OpenCode ambient integration ([#38](https://github.com/sub4biz/axi/issues/38)) ([fc54e94](https://github.com/sub4biz/axi/commit/fc54e9476210f5f6b20ed27a8b370142eac63a1e))
+* better encapsulation of args handling in sdk ([#21](https://github.com/sub4biz/axi/issues/21)) ([c7414b5](https://github.com/sub4biz/axi/commit/c7414b50f20b1dd6c28b0f10007f3f8fd761e116))
+* **cli:** add explicit argv support ([#25](https://github.com/sub4biz/axi/issues/25)) ([7b1202b](https://github.com/sub4biz/axi/commit/7b1202b1be9a4c1349e16630dc1b99aede827f54))
+* **cli:** add version flag support ([#23](https://github.com/sub4biz/axi/issues/23)) ([e05e312](https://github.com/sub4biz/axi/commit/e05e312c5341175c1babe1a0c067a60a773f75f9))
+* **sdk:** project-scope session-start hook install, status, and uninstall ([#140](https://github.com/sub4biz/axi/issues/140)) ([b7dbc13](https://github.com/sub4biz/axi/commit/b7dbc1324ce637f08835ce5c45783a24287511f2))
+
+
+### Bug Fixes
+
+* **axi-sdk-js:** handle stdout EPIPE gracefully ([#199](https://github.com/sub4biz/axi/issues/199)) ([b0a73b2](https://github.com/sub4biz/axi/commit/b0a73b2657a341a96a276718fff6d2763b787a5a))
+* **axi-sdk-js:** install portable session hook commands ([#33](https://github.com/sub4biz/axi/issues/33)) ([fb5ae20](https://github.com/sub4biz/axi/commit/fb5ae200f2710bfb65cac00fff995c88d79f8f32))
+* **axi-sdk-js:** make session hook setup explicit ([#42](https://github.com/sub4biz/axi/issues/42)) ([66a68a2](https://github.com/sub4biz/axi/commit/66a68a2e42f2506879fb5e53eca9c5d41314c83f))
+* **axi-sdk-js:** resolve portable hook command from npm wrapper shims ([#67](https://github.com/sub4biz/axi/issues/67)) ([eddde85](https://github.com/sub4biz/axi/commit/eddde85bcd6035d2e1390596aff2af2daa10b1a3))
+* **axi-sdk-js:** route initialize and resolveContext failures through the AXI error contract ([#122](https://github.com/sub4biz/axi/issues/122)) ([fb27ce9](https://github.com/sub4biz/axi/commit/fb27ce96128d63bc26b6664f74f9bf98a03dfcf2))
+* use canonical Codex hooks feature ([81a8dc7](https://github.com/sub4biz/axi/commit/81a8dc79760f8fb06988275fc8973dcf5a678d81))
+* write canonical Codex hooks config key ([99e2e66](https://github.com/sub4biz/axi/commit/99e2e66ea5081eeb32d2e2f3fc50582715941552))
+
 ## [0.1.12](https://github.com/kunchenguid/axi/compare/axi-sdk-js-v0.1.11...axi-sdk-js-v0.1.12) (2026-09-16)
 
 
